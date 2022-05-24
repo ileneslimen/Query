@@ -1,0 +1,17 @@
+{
+  "name": "base-lazy-days",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "concurrently \"cd server && cd src && npx nodemon index.cjs\" \"cd client && npm start\""
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^7.2.0"
+  }
+}
